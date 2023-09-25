@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-25T08:35:24Z" name="E2E SauceDemo" finished-at="2023-09-25T08:35:28Z" duration-ms="4594">
+    <groups>
+    </groups>
+    <test started-at="2023-09-25T08:35:24Z" name="Test on Chrome" finished-at="2023-09-25T08:35:28Z" duration-ms="4594">
+      <class name="com.org.test.E2ETest">
+        <test-method is-config="true" signature="initilizeDriver(java.lang.String)[pri:0, instance:com.org.test.E2ETest@1cbb87f3]" started-at="2023-09-25T08:35:24Z" name="initilizeDriver" finished-at="2023-09-25T08:35:26Z" duration-ms="2846" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeDriver -->
+        <test-method signature="checkoutE2E(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.org.test.E2ETest@1cbb87f3]" started-at="2023-09-25T08:35:26Z" name="checkoutE2E" data-provider="testData" finished-at="2023-09-25T08:35:28Z" duration-ms="1608" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Harish]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Bora]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[UB1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Thank you for your order!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutE2E -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.org.test.E2ETest@1cbb87f3]" started-at="2023-09-25T08:35:28Z" name="tearDown" finished-at="2023-09-25T08:35:29Z" duration-ms="690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.org.test.E2ETest -->
+    </test> <!-- Test on Chrome -->
+  </suite> <!-- E2E SauceDemo -->
+</testng-results>
