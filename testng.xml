@@ -11,4 +11,9 @@
             <class name="com.org.test.E2ETest"></class>
         </classes>
     </test> 
+      <test name="API Test">
+        <classes>
+            <class name="com.org.test.APITest"></class>
+        </classes>
+    </test> 
 </suite> <!-- Suite -->
